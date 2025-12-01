@@ -1,0 +1,185 @@
+\documentclass[12pt, a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{geometry}
+\usepackage{color}
+\usepackage{listings}
+\usepackage{hyperref}
+\usepackage[dvipsnames]{xcolor}
+\usepackage[polish]{babel}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{float}
+
+\geometry{
+ a4paper,
+ margin=1in,
+}
+
+\title{Sprawozdanie z Implementacji Algorytmu Triangulacji Wielokątów $y$-Monotonicznych}
+\author{Artur Radwański - grupa 4}
+\date{24 listopada 2025}
+
+\begin{document}
+
+\maketitle
+
+\section{Realizacja Ćwiczenia}
+\subsection{Cel}
+
+Celem ćwiczenia była implementacja kluczowych etapów przetwarzania wielokątów w geometrii obliczeniowej: sprawdzenie
+$y$-monotoniczności, kategoryzacja wierzchołków oraz właściwa triangulacja wielokąta $y$-monotonicznego przy użyciu
+algorytmu opisanego na wykładzie.
+
+\subsection{Wstęp teoretyczny}
+Wielokąt jest $\mathbf{y}$-monotoniczny, jeśli każda prosta pozioma przecina go w co najwyżej dwóch punktach.
+Taki wielokąt można podzielić na dwa łańcuchy z których każdy jest przecinany co najwyżej raz przez każdą poziomą prostą.
+\medskip
+
+\noindent
+Wierzchołki dowolnego wielokąta możemy skategoryzować ze względu na położenie sąsiadów w następujący sposób:
+\begin{itemize}
+    \item  \textbf{\color{OliveGreen}Początkowy} - Sąsiedzi poniżej, kąt wypukły ($< 180^\circ$).
+    \item \textbf{\color{red}Końcowy} - Sąsiedzi powyżej, kąt wypukły ($< 180^\circ$).
+    \item \textbf{\color{blue}Łączący} - Sąsiedzi powyżej, kąt wklęsły ($> 180^\circ$).
+    \item \textbf{\color{cyan}Dzielący} - Sąsiedzi poniżej, kąt wklęsły ($> 180^\circ$).
+    \item \textbf{\color{pink}Prawidłowy} - Jeden sąsiad powyżej, drugi poniżej.
+\end{itemize}
+Wielokąt jest $y$-monotoniczny wtedy i tylko wtedy gdy nie posiada żadnego wierzchołka łączącego, ani dzielącego.
+\medskip
+
+\noindent
+Algorytm triangulacji opisany jest następująco:
+\begin{itemize}
+    \item Przydzielamy każdy z wierzchołków do łańcucha
+    \item Sortujemy wierzchołki względem współrzędnej $y$
+    \item Umieszczamy dwa pierwsze wierzchołki na stosie
+    \item Jeśli sprawdzany wierzchołek należy do innego łańucha od tego ze szczytu stosu, to łączymy go ze wszystkimi wierzchołkami
+    na stosie, następnie wstawiamy na stos wierzchołek który był na szczycie oraz ten który był właśnie przetwarzany
+    \item Jeśli sprawdzany wierzchołek należy do tego samego łańcucha, to analizujemy trójkąt jaki tworzy z wierzchołkami na
+    szczycie stosu, jeśli zawiera się w tym wielokącie, to zdejmujemy jeden wierzchołek ze stosu i powtarzamy ten krok,
+    w przeciwnym wypadku umieszczamy badane wierzchołki na stosie i przechodzimy do następnego wierzchołka
+\end{itemize}
+
+\subsection{Opis implementacji}
+
+\paragraph{Sprawdzanie $y$-monotoniczności:}
+Funkcja zakłada, że współrzędne wierzchołków są podane w postaci tablicy krotek i punkty są posortowane w kolejności przeciwnej
+do ruchu wskazówek zegara. Funkcja najpierw znajduje wierzchołek o najwyższym i najniższym $y$, następnie dzieli wielokąt na 
+dwa łańcuchy zaczynające i kończące się w tych wierzchołkach, następnie sprawdza czy oba są monotoniczne, jeśli tak, to
+wielokąt jest $y$-monotoniczny.
+
+\paragraph{Klasyfikacja wierzchołków:}
+Funkcja iteruje przez wszystkie wierzchołki sprawdzając położenie sąsiadów oraz wypukłość kąta, przy sprawdzanym wierzchołku.
+Do sprawdzania wypukłości kąta, jest używana metoda wyznacznika macierzy 3x3.
+
+\paragraph{Triangulacja:}
+Funkcja realizuje algorytm opisany we wstępie teoretycznym. Po podzieleniu wielokąta na dwa łańcuchy, wierzchołki są sortowane
+przez scalanie. W ramach stosu użyto struktury deque z biblioteki queque. Do sprawdzania czy dany wierzchołek należy do wielokąta
+użyto metody obliczania wyznacznika macierzy 3x3. Przeanalizowano skuteczność algorytmu dla różnych wielokątów.
+
+
+\section{Wyniki}
+\subsection{Klasyfikacja wierzchołków}
+Poniżej dwie grafiki pokazujące na przykładzie jak wygląda klasyfikacja wierzchołków w wielokącie:
+
+Legenda:
+\begin{itemize}
+    \item  \textbf{\color{OliveGreen}Początkowy}
+    \item \textbf{\color{red}Końcowy}
+    \item \textbf{\color{blue}Łączący} 
+    \item \textbf{\color{cyan}Dzielący}
+    \item \textbf{\color{pink}Prawidłowy}
+\end{itemize}
+
+\begin{figure}[H]
+  \centering
+  \begin{subfigure}[b]{0.4\linewidth}
+    \includegraphics[width=\linewidth]{images/nony_colors.png}
+    \caption{Wielokąt dowolny}
+  \end{subfigure}
+  \begin{subfigure}[b]{0.4\linewidth}
+    \includegraphics[width=\linewidth]{images/y-colors.png}
+    \caption{Wielokąt $y$-monotoniczny}
+  \end{subfigure}
+  \caption{Klasyfikacja wierzchołków}
+  \label{fig:coffee}
+\end{figure}
+
+\subsection{triangulacja}
+Algorytm triangulacji wielokątów $y$-monotonicznych został przetestowany na zróżnicowanym zestawie figur, aby zweryfikować jego poprawność. Testy wizualizują przekątne (zaznaczone kolorem czerwonym) dodane przez algorytm.
+
+\paragraph{Wyniki Triangulacji dla Różnych Wielokątów Testowych}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{images/plot1.png}
+    \caption{Wielokąt bazowy}
+    \label{fig:wlasny_tri}
+    \vspace{0.5em}
+    \textit{Komentarz: Prosty, niesymetryczny wielokąt $y$-monotoniczny. Algorytm poprawnie połączył wierzchołki.}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{images/plot10.png}
+    \caption{Wachlarz}
+    \label{fig:wachlarz_tri}
+    \vspace{0.5em}
+    \textit{Komentarz: Jest to najprostszy przypadek wklęsłości (jeden łańcuch jest prostą linią), w którym algorytm tworzy wachlarz trójkątów z jednym wspólnym wierzchołkiem. Triangulacja została poprawnie wykonana.}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{images/plot3.png}
+    \caption{Choinka}
+    \label{fig:choinka_tri}
+    \vspace{0.5em}
+    \textit{Komentarz: Wielokąt z podobnymi wklęsłościami po obu stronach. Algorytm pomyślnie poradził sobie z zarządzaniem oboma łańcuchami, tworząc trójkąty w miarę wychodzenia w górę (wzrostu $y$).}
+\end{figure}
+
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{images/plot7.png}
+    \caption{Grzebień}
+    \label{fig:grzebien_tri}
+    \vspace{0.5em}
+    \textit{Komentarz: Reprezentuje trudniejszy przypadek, w którym występuje wiele następujących po sobie wklęsłych narożników na jednym z łańcuchów. Również tutaj, algorytm sobie poradził}
+\end{figure}
+
+
+\section{Wnioski}
+Implementacja algorytmu triangulacji wielokątów $y$-monotonicznych przebiegła pomyślnie. 
+Algorytm triangulacji, bazujący na
+sortowaniu wierzchołków i wykorzystaniu stosu, efektywnie i optymalnie czasowo ($\mathbf{O(n)}$) generuje
+zbiór przekątnych, poprawnie dzieląc dostarczone wielokąty $y$-monotoniczne na trójkąty.
+
+\section{Środowisko}
+\begin{itemize}
+    \item System operacyjny: Linux 6.17.9-arch1-1
+    \item Procesor: AMD Ryzen 9800x3d
+    \item Język programowania + translator: Python 3.13.7
+    \item Środowisko: JupyterNotebook
+    \item wynik !jupyter --version
+        \begin{itemize}
+        \item IPython          : 9.7.0
+        \item ipykernel        : 7.1.0
+        \item ipywidgets       : not installed
+        \item jupyter\_client   : 8.6.3
+        \item jupyter\_core     : 5.9.1
+        \item jupyter\_server   : 2.17.0
+        \item jupyterlab       : 4.5.0
+        \item nbclient         : 0.10.2
+        \item nbconvert        : 7.16.6
+        \item nbformat         : 5.10.4
+        \item notebook         : 7.5.0
+        \item qtconsole        : not installed
+        \item traitlets        : 5.14.3
+    \end{itemize}
+\end{itemize}
+\end{document}
