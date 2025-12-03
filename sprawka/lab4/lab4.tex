@@ -1,0 +1,49 @@
+\documentclass[12pt, a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{geometry}
+\usepackage{color}
+\usepackage{listings}
+\usepackage{hyperref}
+\usepackage[dvipsnames]{xcolor}
+\usepackage[polish]{babel}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{float}
+
+\geometry{
+ a4paper,
+ margin=1in,
+}
+
+\title{Sprawozdanie z Implementacji Algorytmu Triangulacji Wielokątów $y$-Monotonicznych}
+\author{Artur Radwański - grupa 4}
+\date{24 listopada 2025}
+
+\begin{document}
+
+\maketitle
+
+\section{Wstęp}
+\subsection{Cel ćwiczenia}
+Celem ćwiczenia była implementacja algorytmu wykrywania przecięć odcinków na płaszczyźnie kartezjańskiej.
+
+\subsection{Implementacja}
+Jako struktury zdarzeń oraz struktury stanu, użyto SortedSet.
+
+W strukturze zdarzeń trzymano krotki w postaci ((x,y), typ, id1, id2)
+gdzie: 
+\begin{itemize}
+    \item (x,y) - współrzędne punktu
+    \item typ - string wskazujący typ zdarzenia
+    \item id1, id2 - indeks odcinka w oryginalnej tablicy, id2 jest opcjonalne i jest dodawane tylko jeśli zdarzenie to przecięcie
+\end{itemize}
+
+W strukturze stanu trzymano krotki (Odcinek, id) gdzie
+
+
+
+\end{document}
