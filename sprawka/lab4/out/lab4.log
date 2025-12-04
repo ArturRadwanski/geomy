@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.11.18)  2 DEC 2025 23:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.11.18)  4 DEC 2025 01:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -447,30 +447,48 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 29.
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
+<images/pionowy.png, id=24, 143.78719pt x 194.97844pt>
+File: images/pionowy.png Graphic file (type png)
+<use images/pionowy.png>
+Package pdftex.def Info: images/pionowy.png  used on input line 50.
+(pdftex.def)             Requested size: 113.24197pt x 153.56416pt.
+<images/pokrywajace.png, id=26, 160.34906pt x 125.71968pt>
+File: images/pokrywajace.png Graphic file (type png)
+<use images/pokrywajace.png>
+Package pdftex.def Info: images/pokrywajace.png  used on input line 54.
+(pdftex.def)             Requested size: 113.24197pt x 88.78775pt.
+<images/trzy.png, id=27, 119.69719pt x 80.55093pt>
+File: images/trzy.png Graphic file (type png)
+<use images/trzy.png>
+Package pdftex.def Info: images/trzy.png  used on input line 58.
+(pdftex.def)             Requested size: 113.24197pt x 76.20706pt.
+
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] (out/lab4.aux)
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./images/pionowy.png> <./images/pokrywajace.png> <./images/trzy.png>]
+
+[2] (out/lab4.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `lab4.out' has not changed.
-(rerunfilecheck)             Checksum: 88FB9A0578BC473A75E180DB12A57BA0;321.
+(rerunfilecheck)             Checksum: 26B4CD721E34D79EBE6311D1633A5423;648.
  ) 
 Here is how much of TeX's memory you used:
- 14966 strings out of 475136
- 232790 string characters out of 5766290
- 649502 words of memory out of 5000000
- 37781 multiletter control sequences out of 15000+600000
- 569488 words of font info for 66 fonts, out of 8000000 for 9000
+ 15033 strings out of 475136
+ 233965 string characters out of 5766290
+ 656546 words of memory out of 5000000
+ 37831 multiletter control sequences out of 15000+600000
+ 572587 words of font info for 74 fonts, out of 8000000 for 9000
  34 hyphenation exceptions out of 8191
- 75i,6n,79p,612b,453s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb>
-Output written on out/lab4.pdf (1 page, 86191 bytes).
+ 75i,8n,79p,612b,535s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb>
+Output written on out/lab4.pdf (2 pages, 148518 bytes).
 PDF statistics:
- 61 PDF objects out of 1000 (max. 8388607)
- 44 compressed objects within 1 object stream
- 5 named destinations out of 1000 (max. 500000)
- 25 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 104 PDF objects out of 1000 (max. 8388607)
+ 74 compressed objects within 1 object stream
+ 14 named destinations out of 1000 (max. 500000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
