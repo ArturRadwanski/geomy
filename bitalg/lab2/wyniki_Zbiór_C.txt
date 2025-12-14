@@ -1,0 +1,31 @@
+Zbiór C:
+Liczba punktów: 1001
+Algorytm Grahama: czas wykonania 0.0030 s, liczba punktów na otoczce: 5
+Algorytm Jarvisa: czas wykonania 0.0013 s, liczba punktów na otoczce: 5
+Porównanie liczby punktów: TAK
+
+Liczba punktów: 2001
+Algorytm Grahama: czas wykonania 0.0058 s, liczba punktów na otoczce: 5
+Algorytm Jarvisa: czas wykonania 0.0026 s, liczba punktów na otoczce: 5
+Porównanie liczby punktów: TAK
+
+Liczba punktów: 5001
+Algorytm Grahama: czas wykonania 0.0162 s, liczba punktów na otoczce: 5
+Algorytm Jarvisa: czas wykonania 0.0065 s, liczba punktów na otoczce: 5
+Porównanie liczby punktów: TAK
+
+Liczba punktów: 10001
+Algorytm Grahama: czas wykonania 0.0346 s, liczba punktów na otoczce: 5
+Algorytm Jarvisa: czas wykonania 0.0128 s, liczba punktów na otoczce: 5
+Porównanie liczby punktów: TAK
+
+Liczba punktów: 20001
+Algorytm Grahama: czas wykonania 0.0745 s, liczba punktów na otoczce: 5
+Algorytm Jarvisa: czas wykonania 0.0262 s, liczba punktów na otoczce: 5
+Porównanie liczby punktów: TAK
+
+Liczba punktów: 50001
+Algorytm Grahama: czas wykonania 0.2038 s, liczba punktów na otoczce: 5
+Algorytm Jarvisa: czas wykonania 0.0646 s, liczba punktów na otoczce: 5
+Porównanie liczby punktów: TAK
+

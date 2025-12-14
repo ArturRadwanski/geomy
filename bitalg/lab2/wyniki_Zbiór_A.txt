@@ -1,0 +1,31 @@
+Zbiór A:
+Liczba punktów: 997
+Algorytm Grahama: czas wykonania 0.0029 s, liczba punktów na otoczce: 19
+Algorytm Jarvisa: czas wykonania 0.0032 s, liczba punktów na otoczce: 19
+Porównanie liczby punktów: TAK
+
+Liczba punktów: 1997
+Algorytm Grahama: czas wykonania 0.0061 s, liczba punktów na otoczce: 24
+Algorytm Jarvisa: czas wykonania 0.0079 s, liczba punktów na otoczce: 23
+Porównanie liczby punktów: NIE
+
+Liczba punktów: 4997
+Algorytm Grahama: czas wykonania 0.0161 s, liczba punktów na otoczce: 27
+Algorytm Jarvisa: czas wykonania 0.0236 s, liczba punktów na otoczce: 26
+Porównanie liczby punktów: NIE
+
+Liczba punktów: 9997
+Algorytm Grahama: czas wykonania 0.0332 s, liczba punktów na otoczce: 23
+Algorytm Jarvisa: czas wykonania 0.0350 s, liczba punktów na otoczce: 22
+Porównanie liczby punktów: NIE
+
+Liczba punktów: 19997
+Algorytm Grahama: czas wykonania 0.0566 s, liczba punktów na otoczce: 30
+Algorytm Jarvisa: czas wykonania 0.0868 s, liczba punktów na otoczce: 30
+Porównanie liczby punktów: TAK
+
+Liczba punktów: 49997
+Algorytm Grahama: czas wykonania 0.2762 s, liczba punktów na otoczce: 25
+Algorytm Jarvisa: czas wykonania 0.1781 s, liczba punktów na otoczce: 25
+Porównanie liczby punktów: TAK
+
