@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.11.11)  14 DEC 2025 22:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.11.11)  15 DEC 2025 05:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -450,27 +450,154 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}] (build/lab2-sprawko.aux)
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}]
+<images/A.png, id=77, 422.7795pt x 312.2064pt>
+File: images/A.png Graphic file (type png)
+<use images/A.png>
+Package pdftex.def Info: images/A.png  used on input line 92.
+(pdftex.def)             Requested size: 181.18439pt x 133.79832pt.
+<images/B.png, id=79, 424.2249pt x 312.2064pt>
+File: images/B.png Graphic file (type png)
+<use images/B.png>
+Package pdftex.def Info: images/B.png  used on input line 96.
+(pdftex.def)             Requested size: 181.18439pt x 133.34099pt.
+<images/C.png, id=80, 424.2249pt x 312.2064pt>
+File: images/C.png Graphic file (type png)
+<use images/C.png>
+Package pdftex.def Info: images/C.png  used on input line 101.
+(pdftex.def)             Requested size: 181.18439pt x 133.34099pt.
+<images/D.png, id=81, 406.1574pt x 312.2064pt>
+File: images/D.png Graphic file (type png)
+<use images/D.png>
+Package pdftex.def Info: images/D.png  used on input line 105.
+(pdftex.def)             Requested size: 181.18439pt x 139.27202pt.
+
+
+[2{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+<images/graham_a.png, id=94, 422.7795pt x 312.2064pt>
+File: images/graham_a.png Graphic file (type png)
+<use images/graham_a.png>
+Package pdftex.def Info: images/graham_a.png  used on input line 122.
+(pdftex.def)             Requested size: 181.18439pt x 133.79832pt.
+<images/jarvis_a.png, id=95, 422.7795pt x 312.2064pt>
+File: images/jarvis_a.png Graphic file (type png)
+<use images/jarvis_a.png>
+Package pdftex.def Info: images/jarvis_a.png  used on input line 126.
+(pdftex.def)             Requested size: 181.18439pt x 133.79832pt.
+<images/graham_b.png, id=96, 424.2249pt x 312.2064pt>
+File: images/graham_b.png Graphic file (type png)
+<use images/graham_b.png>
+Package pdftex.def Info: images/graham_b.png  used on input line 136.
+(pdftex.def)             Requested size: 181.18439pt x 133.34099pt.
+<images/jarvis_b.png, id=97, 424.2249pt x 312.2064pt>
+File: images/jarvis_b.png Graphic file (type png)
+<use images/jarvis_b.png>
+Package pdftex.def Info: images/jarvis_b.png  used on input line 140.
+(pdftex.def)             Requested size: 181.18439pt x 133.34099pt.
+
+
+[3 <./images/A.png> <./images/B.png> <./images/C.png> <./images/D.png> <./images/graham_a.png> <./images/jarvis_a.png>]
+<images/graham_c.png, id=111, 424.2249pt x 312.2064pt>
+File: images/graham_c.png Graphic file (type png)
+<use images/graham_c.png>
+Package pdftex.def Info: images/graham_c.png  used on input line 149.
+(pdftex.def)             Requested size: 181.18439pt x 133.34099pt.
+<images/jarvis_c.png, id=112, 424.2249pt x 312.2064pt>
+File: images/jarvis_c.png Graphic file (type png)
+<use images/jarvis_c.png>
+Package pdftex.def Info: images/jarvis_c.png  used on input line 153.
+(pdftex.def)             Requested size: 181.18439pt x 133.34099pt.
+<images/graham_d.png, id=113, 406.1574pt x 312.2064pt>
+File: images/graham_d.png Graphic file (type png)
+<use images/graham_d.png>
+Package pdftex.def Info: images/graham_d.png  used on input line 162.
+(pdftex.def)             Requested size: 181.18439pt x 139.27202pt.
+<images/jarvis_d.png, id=114, 406.1574pt x 312.2064pt>
+File: images/jarvis_d.png Graphic file (type png)
+<use images/jarvis_d.png>
+Package pdftex.def Info: images/jarvis_d.png  used on input line 166.
+(pdftex.def)             Requested size: 181.18439pt x 139.27202pt.
+
+
+[4 <./images/graham_b.png> <./images/jarvis_b.png> <./images/graham_c.png> <./images/jarvis_c.png> <./images/graham_d.png> <./images/jarvis_d.png>]
+Overfull \hbox (60.49545pt too wide) in paragraph at lines 180--181
+[]\T1/cmr/bx/n/12 Zbiór A \T1/cmr/m/n/12 - zbiór rów-no-mier-nie roz-ªo-»o-nych punk-tów w prze-dziale $\OT1/cmr/m/n/12 ((\OMS/cmsy/m/n/12 ^^@\OT1/cmr/m/n/12 1000\OML/cmm/m/it/12 ; \OMS/cmsy/m/n/12 ^^@\OT1/cmr/m/n/12 1000)\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 (1000\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 1000))$ 
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 187.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\epsilon' on input line 187.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 187.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 187.
+
+
+
+[5]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 238.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\epsilon' on input line 238.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 238.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 238.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 301.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\epsilon' on input line 301.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 301.
+
+
+
+[6
+
+]
+
+[7] (build/lab2-sprawko.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `lab2-sprawko.out' has not changed.
-(rerunfilecheck)             Checksum: 91BC27FA8B2B05232A4507A0F4CF24B7;277.
+(rerunfilecheck)             Checksum: 4264C2DB69A20D8251066E5BCF4BF92F;1751.
  ) 
 Here is how much of TeX's memory you used:
- 14946 strings out of 475136
- 232581 string characters out of 5766290
- 646513 words of memory out of 5000000
- 37765 multiletter control sequences out of 15000+600000
- 566358 words of font info for 54 fonts, out of 8000000 for 9000
+ 15145 strings out of 475136
+ 236203 string characters out of 5766290
+ 663842 words of memory out of 5000000
+ 37912 multiletter control sequences out of 15000+600000
+ 573271 words of font info for 75 fonts, out of 8000000 for 9000
  34 hyphenation exceptions out of 8191
- 75i,6n,79p,597b,453s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb>
-Output written on build/lab2-sprawko.pdf (1 page, 54915 bytes).
+ 75i,8n,79p,597b,537s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
+Output written on build/lab2-sprawko.pdf (7 pages, 408909 bytes).
 PDF statistics:
- 48 PDF objects out of 1000 (max. 8388607)
- 34 compressed objects within 1 object stream
- 4 named destinations out of 1000 (max. 500000)
- 17 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 232 PDF objects out of 1000 (max. 8388607)
+ 168 compressed objects within 2 object streams
+ 44 named destinations out of 1000 (max. 500000)
+ 165 words of extra memory for PDF output out of 10000 (max. 10000000)
 

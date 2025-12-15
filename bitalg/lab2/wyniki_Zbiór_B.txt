@@ -1,41 +1,36 @@
 Zbiór B:
-Liczba punktów: 7
-Algorytm Grahama: czas wykonania 0.0000 s, liczba punktów na otoczce: 7
-Algorytm Jarvisa: czas wykonania 0.0000 s, liczba punktów na otoczce: 6
+Liczba punktów: 999
+Algorytm Grahama: czas wykonania 0.0018 s, liczba punktów na otoczce: 999
+Algorytm Jarvisa: czas wykonania 0.0714 s, liczba punktów na otoczce: 993
 Porównanie liczby punktów: NIE
 
-Liczba punktów: 97
-Algorytm Grahama: czas wykonania 0.0001 s, liczba punktów na otoczce: 97
-Algorytm Jarvisa: czas wykonania 0.0006 s, liczba punktów na otoczce: 96
+Liczba punktów: 1999
+Algorytm Grahama: czas wykonania 0.0042 s, liczba punktów na otoczce: 1999
+Algorytm Jarvisa: czas wykonania 0.2919 s, liczba punktów na otoczce: 1998
 Porównanie liczby punktów: NIE
 
-Liczba punktów: 497
-Algorytm Grahama: czas wykonania 0.0008 s, liczba punktów na otoczce: 497
-Algorytm Jarvisa: czas wykonania 0.0164 s, liczba punktów na otoczce: 496
+Liczba punktów: 4999
+Algorytm Grahama: czas wykonania 0.0117 s, liczba punktów na otoczce: 4999
+Algorytm Jarvisa: czas wykonania 1.8652 s, liczba punktów na otoczce: 4998
 Porównanie liczby punktów: NIE
 
-Liczba punktów: 997
-Algorytm Grahama: czas wykonania 0.0018 s, liczba punktów na otoczce: 997
-Algorytm Jarvisa: czas wykonania 0.0659 s, liczba punktów na otoczce: 996
+Liczba punktów: 9999
+Algorytm Grahama: czas wykonania 0.0252 s, liczba punktów na otoczce: 9996
+Algorytm Jarvisa: czas wykonania 7.5404 s, liczba punktów na otoczce: 9994
 Porównanie liczby punktów: NIE
 
-Liczba punktów: 1997
-Algorytm Grahama: czas wykonania 0.0040 s, liczba punktów na otoczce: 1997
-Algorytm Jarvisa: czas wykonania 0.2662 s, liczba punktów na otoczce: 1996
+Liczba punktów: 19999
+Algorytm Grahama: czas wykonania 0.1535 s, liczba punktów na otoczce: 19993
+Algorytm Jarvisa: czas wykonania 31.2117 s, liczba punktów na otoczce: 19990
 Porównanie liczby punktów: NIE
 
-Liczba punktów: 4997
-Algorytm Grahama: czas wykonania 0.0115 s, liczba punktów na otoczce: 4994
-Algorytm Jarvisa: czas wykonania 1.6990 s, liczba punktów na otoczce: 4993
-Porównanie liczby punktów: NIE
-
-Liczba punktów: 7497
-Algorytm Grahama: czas wykonania 0.0185 s, liczba punktów na otoczce: 7491
-Algorytm Jarvisa: czas wykonania 3.8302 s, liczba punktów na otoczce: 7491
+Liczba punktów: 49999
+Algorytm Grahama: czas wykonania 0.1488 s, liczba punktów na otoczce: 49893
+Algorytm Jarvisa: czas wykonania 200.1075 s, liczba punktów na otoczce: 49893
 Porównanie liczby punktów: TAK
 
-Liczba punktów: 9997
-Algorytm Grahama: czas wykonania 0.0244 s, liczba punktów na otoczce: 9988
-Algorytm Jarvisa: czas wykonania 6.9121 s, liczba punktów na otoczce: 9987
+Liczba punktów: 74999
+Algorytm Grahama: czas wykonania 0.3476 s, liczba punktów na otoczce: 74687
+Algorytm Jarvisa: czas wykonania 441.9657 s, liczba punktów na otoczce: 74674
 Porównanie liczby punktów: NIE
 
